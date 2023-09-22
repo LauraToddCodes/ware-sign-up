@@ -2,12 +2,14 @@
 module.exports = {
 	content: ["./src/**/*.{html,tsx}"],
 	theme: {
-		extend: {
-			screens: {
-				sm: "375px",
-				lg: "1440px",
-			},
+		screens: {
+			sm: "375px",
+			lg: "1440px",
 		},
+		fontFamily: {
+			sans: ["Poppins", "sans-serif"],
+		},
+		extend: {},
 	},
 	plugins: [],
 }
