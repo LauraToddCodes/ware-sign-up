@@ -1,6 +1,6 @@
 import "./App.css"
 
-import { JumboText, TrialBox } from "./components"
+import { Form, JumboText, TrialBox } from "./components"
 
 function App() {
 	return (
@@ -10,6 +10,7 @@ function App() {
 				<JumboText />
 				<div className="rightPanel">
 					<TrialBox />
+					<Form />
 				</div>
 			</div>
 		</>
