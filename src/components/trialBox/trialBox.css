@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.trialContainer {
+	@apply bg-blue pt-6 pb-5 px-8 rounded-lg text-center text-white;
+}
+
+.boldType {
+	@apply font-bold;
+}

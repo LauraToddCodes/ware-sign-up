@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.baseInput {
+	@apply border-solid rounded h-14 w-full font-semibold mt-4 sm:mt-5 px-5 pr-12 sm:pl-8 relative z-0;
+}
+
+.errorMessage {
+	@apply text-red text-xs italic text-right mt-1;
+}
+
+.errorIcon {
+	@apply absolute right-6 top-9;
+}
+
+.errorIconContainer {
+	@apply relative z-10;
+}
+
+.errorInput {
+	@apply border-2 border-red placeholder:text-red;
+}
+
+form {
+	@apply bg-white mt-5 sm:mt-6 rounded-lg pt-2 sm:pt-5 pb-8 sm:pb-12 px-6 sm:px-10;
+}
+
+.noErrorInput {
+	@apply border border-grayish;
+}
+
+.submitButton {
+	@apply bg-green text-white font-semibold rounded text-center w-full pt-6 pb-5 px-5 mt-4 sm:mt-5 mb-4 border border-b-4 border-solid border-[#4CC292] hover:bg-[#75E3B4] hover:border-[#72CAA4];
+}
+
+.termsContainer {
+	@apply text-xs leading-6 text-center;
+}
+
+.termsParagraph {
+	@apply text-grayish;
+}
+
+.termsLink {
+	@apply text-red font-bold;
+}

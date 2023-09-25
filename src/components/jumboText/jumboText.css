@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.jumboContainer {
+	@apply text-white text-center sm:text-left w-full sm:w-1/2 sm:mr-14;
+}
+
+.header {
+	@apply text-lg sm:text-xl font-bold;
+}

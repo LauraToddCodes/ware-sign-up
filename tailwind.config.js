@@ -10,16 +10,18 @@ module.exports = {
 			sans: ["Poppins", "sans-serif"],
 		},
 		fontSize: {
+			xs: "11px",
 			base: "16px",
+			lg: "1.5rem",
+			xl: "3rem",
 		},
 		colors: {
-			red: "hsl(0, 100%, 74%)",
-			green: "hsl(154, 59%, 51%)",
+			blue: "hsl(248, 32%, 49%)",
 			dark: "hsl(249, 10%, 26%)",
 			grayish: "hsl(246, 25%, 77%)",
-		},
-		accentColor: {
-			blue: "hsl(248, 32%, 49%)",
+			green: "hsl(154, 59%, 51%)",
+			red: "hsl(0, 100%, 74%)",
+			white: "rgb(255 255 255)",
 		},
 		extend: {},
 	},
