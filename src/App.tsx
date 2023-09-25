@@ -1,6 +1,6 @@
 import "./App.css"
 
-import { JumboText } from "./components"
+import { JumboText, TrialBox } from "./components"
 
 function App() {
 	return (
@@ -8,6 +8,9 @@ function App() {
 			<div className="bgUnderlay"></div>
 			<div className="bgImage">
 				<JumboText />
+				<div className="rightPanel">
+					<TrialBox />
+				</div>
 			</div>
 		</>
 	)
