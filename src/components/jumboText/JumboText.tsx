@@ -11,7 +11,10 @@ export function JumboText() {
 	return (
 		<div className="jumboContainer">
 			{formData.firstName ? (
-				<p>Thanks for signing up, {formData.firstName}!</p>
+				<>
+					<h1 className="header">Success!</h1>
+					<p>Thanks for signing up, {formData.firstName}!</p>
+				</>
 			) : (
 				<>
 					{" "}

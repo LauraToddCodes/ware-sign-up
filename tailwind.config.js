@@ -2,8 +2,13 @@
 module.exports = {
 	content: ["./src/**/*.{html,tsx}"],
 	theme: {
+		minHeight: {
+			screen: "100vh",
+			inherit: "inherit",
+		},
 		screens: {
 			sm: "375px",
+			md: "1100px",
 			lg: "1440px",
 		},
 		fontFamily: {
@@ -23,7 +28,11 @@ module.exports = {
 			red: "hsl(0, 100%, 74%)",
 			white: "rgb(255 255 255)",
 		},
-		extend: {},
+		extend: {
+			boxShadow: {
+				DEFAULT: "0px 8px rgb(0 0 0 / 0.1)",
+			},
+		},
 	},
 	plugins: [],
 }
