@@ -2,8 +2,13 @@
 module.exports = {
 	content: ["./src/**/*.{html,tsx}"],
 	theme: {
+		minHeight: {
+			screen: "100vh",
+			inherit: "inherit",
+		},
 		screens: {
 			sm: "375px",
+			md: "1100px",
 			lg: "1440px",
 		},
 		fontFamily: {

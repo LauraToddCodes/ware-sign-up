@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .trialContainer {
-	@apply bg-blue pt-6 pb-5 px-8 rounded-lg text-center text-white mt-16 sm:mt-0 shadow;
+	@apply bg-blue pt-6 pb-5 px-8 rounded-lg text-center text-white mt-16 md:mt-0 shadow;
 }
 
 .boldType {
