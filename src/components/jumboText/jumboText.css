@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .jumboContainer {
-	@apply text-white text-center md:text-left w-full md:w-1/2 md:mr-14 flex flex-col justify-center;
+	@apply text-white text-center md:text-left w-full md:w-1/2 md:mr-14 md:pt-44;
 }
 
 .header {
