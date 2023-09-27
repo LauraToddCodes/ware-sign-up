@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { Inputs } from "../components"
+import { Inputs } from "components"
 
 export const initialFormData = {
 	firstName: "",
