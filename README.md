@@ -1,4 +1,4 @@
-This project is available at [https://ware-sign-bsnprkfgv-lauratoddcode.vercel.app/](https://ware-sign-bsnprkfgv-lauratoddcode.vercel.app/)
+This project is available at [https://ware-sign-up.vercel.app/](https://ware-sign-up.vercel.app/)
 
 ## Running Locally
 
