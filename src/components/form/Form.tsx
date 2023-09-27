@@ -6,7 +6,7 @@ import { Input } from "./Input"
 import { Terms } from "./Terms"
 import { schema } from "./formSchema"
 import { useForm } from "react-hook-form"
-import { useFormData } from "../../provider"
+import { useFormData } from "provider"
 import { yupResolver } from "@hookform/resolvers/yup"
 
 export type Inputs = {

@@ -1,7 +1,7 @@
 import "./jumboText.css"
 
 import { Content } from "./jumboText.content"
-import { useFormData } from "../../provider"
+import { useFormData } from "provider"
 
 export function JumboText() {
 	const { JumboHeader, JumboParagraph } = Content
