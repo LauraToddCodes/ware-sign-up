@@ -1,5 +1,5 @@
 import { FormContent, getPasswordError } from "./components/form/form.content"
-import { render, screen, waitFor } from "@testing-library/react"
+import { render, screen } from "@testing-library/react"
 
 import App from "./App"
 import { Form } from "./components"
