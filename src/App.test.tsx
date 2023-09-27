@@ -1,5 +1,5 @@
 import { FormContent, getPasswordError } from "./components/form/form.content"
-import { render, screen } from "@testing-library/react"
+import { render, screen, waitFor } from "@testing-library/react"
 
 import App from "./App"
 import { Form } from "./components"
@@ -172,4 +172,26 @@ test("error displays when password does not contain an uppercase character", asy
 	const expectedMessage = getPasswordError("uppercase")
 
 	expect(screen.getByTestId("errorMessage")).toHaveTextContent(expectedMessage)
+})
+
+test("Success message with name of user appears on submit", async () => {
+	render(<App />)
+
+	const user = userEvent.setup()
+
+	const userName = "Angela"
+
+	await user.type(screen.getByPlaceholderText("First Name"), userName)
+	await user.type(screen.getByPlaceholderText("Last Name"), "Middlebin")
+	await user.type(
+		screen.getByPlaceholderText("Email Address"),
+		"angela@middlebin.com"
+	)
+	await user.type(screen.getByPlaceholderText("Password"), "!rGh3KZdFy&&")
+
+	await user.click(screen.getByTestId("submitButton"))
+
+	expect(screen.queryByTestId("successMessage")).toHaveTextContent(
+		`Thanks for signing up, ${userName}!`
+	)
 })

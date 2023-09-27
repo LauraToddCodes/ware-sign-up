@@ -13,7 +13,9 @@ export function JumboText() {
 			{formData.firstName ? (
 				<>
 					<h1 className="header">Success!</h1>
-					<p>Thanks for signing up, {formData.firstName}!</p>
+					<p data-testid="successMessage">
+						Thanks for signing up, {formData.firstName}!
+					</p>
 				</>
 			) : (
 				<>
