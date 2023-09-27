@@ -7,9 +7,9 @@
 }
 
 .bgImage {
-	@apply bg-[url('/public/bg-intro-mobile.png')] sm:bg-[url('/public/bg-intro-desktop.png')] inset-0 pt-24 pb-16 px-6 md:pt-16 md:px-40 flex flex-col md:flex-row bg-repeat min-h-inherit;
+	@apply bg-[url('/public/bg-intro-mobile.png')] sm:bg-[url('/public/bg-intro-desktop.png')] inset-0 pt-24 pb-16 px-6 md:pt-16 md:px-40 flex flex-col md:flex-row bg-repeat min-h-inherit items-center md:items-start;
 }
 
 .rightPanel {
-	@apply w-full md:w-1/2 flex flex-col;
+	@apply w-full md:w-1/2 flex flex-col max-w-136;
 }
