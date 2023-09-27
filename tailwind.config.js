@@ -32,6 +32,9 @@ module.exports = {
 			boxShadow: {
 				DEFAULT: "0px 8px rgb(0 0 0 / 0.1)",
 			},
+			maxWidth: {
+				136: "34rem",
+			},
 		},
 	},
 	plugins: [],
